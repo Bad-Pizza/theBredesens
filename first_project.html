@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Rammetto+One|Supermercado+One|Raleway" rel="stylesheet">
+	<style type="text/css">
+		#top {
+			background-image: url("confettifloor.jpg");
+			font-family: 'architects daughter', sans-serif;
+			color: #bfbfbf;
+			}
+		#first {
+			text-align: center;
+			font-family: 'Rammetto One', cursive;
+			}
+		#intro {
+			padding: 50px;}
+			
+		.superm {
+			font-family: "Supermercado One"}
+			
+		.rale {
+			font-family: "Raleway"}
+			
+		#menu {
+			position:sticky;
+			top: 0;}
+	</style>
+<title>Dave Bredesen's First Project</title>
+</head>
+<body>
+	<div id=top>
+		<h1 id=first>The Bredesens</h1>
+		<p id=intro>So, I decided to try out this coding thing again. This is just a little sample page
+		 I made for my first project. I'm thinking about switching from accounting and
+		  I wanted you to see a little bit of what I could do just from teaching myself.
+		  </p>
+	</div>
+	
+<!-- menu -->	
+	
+	<div class="w3-bar w3-light-gray" id="menu">
+	<a href="#" class="w3-bar-item w3-button">Home</a>
+	<a href="#thefam" class="w3-bar-item w3-button">The Fam</a>
+	<a href="#aboutus" class="w3-bar-item w3-button">About us</a>
+	<a href="#megan" class="w3-bar-item w3-button">Megan</a>
+	<a href="#dave" class="w3-bar-item w3-button">Dave</a>
+	<a href="#finley" class="w3-bar-item w3-button">Finley</a>
+	<a href="#quinn" class="w3-bar-item w3-button">Quinn</a>
+	</div>
+	
+<!--The Fam -->
+	
+	<div id=thefam class="w3-container w3-teal">
+	<h1>The Fam</h1>
+	</div>
+	
+	<!-- photos-->
+	<p class="w3-center">Click to enlarge photos</p>
+	
+	<div class="w3-row-padding w3-margin-top">
+		<div class="w3-third">
+			<div class="w3-card">
+				<img src="familyatzoo.jpg" style="width:100%;cursor:zoom-in"
+				onclick="document.getElementById('modal01').style.display='block'">
+				
+				<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+				<span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+				<div class="w3-modal-content w3-animate-zoom">
+				<img src="familyatzoo.jpg" style="width:100%">
+				</div>
+				</div>
+				<div class="w3-container w3-center">
+					<h5>At The Zoo</h5>
+				</div>
+			</div>
+		</div>
+		
+		<div class="w3-third">
+			<div class="w3-card">
+				<img src="girlswithsantasquare.jpg" style="width:100%;cursor:zoom-in"
+				onclick="document.getElementById('modal01').style.display='block'">
+				
+				<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+				<span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+				<div class="w3-modal-content w3-animate-zoom">
+				<img src="girlswithsantasquare.jpg" style="width:100%">
+				</div>
+				</div>
+				<div class="w3-container w3-center">
+					<h5>With the Big Guy</h5>
+				</div>
+			</div>
+		</div>
+		
+		<div class="w3-third">
+			<div class="w3-card">
+				<img src="ustigers.jpg" style="width:100%;cursor:zoom-in"
+				onclick="document.getElementById('modal01').style.display='block'">
+				
+				<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+				<span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+				<div class="w3-modal-content w3-animate-zoom">
+				<img src="ustigers.jpg" style="width:100%">
+				</div>
+				</div>
+				<div class="w3-container w3-center">
+					<h5>Tiger's Game</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+<!-- about us -->
+
+	<div class="w3-cell-row w3-margin-top w3-margin-bottom" id="aboutus">
+		<div class="w3-cell "> 
+			<div class="w3-container w3-center">
+				<h1>ABOUT US</h1>
+			</div>	
+			<div class="w3-container ">
+		 		<img src="familyatzoo.jpg" style="width:100%" class="w3-round">
+			</div>
+		</div>
+		<div class="w3-cell w3-cell-middle" >
+			<p> Here is some sample text. I just want to see what this is going to look
+			like. It needs to be long enough to fill a line.</p>
+		</div>
+	</div>
+	
+<!--Megan -->
+
+	<div class="w3-display-container " id="megan">
+		<img src="megantrain.jpg" style="width: 100%">
+			<div class="superm w3-display-middle w3-xlarge w3-text-white">MEGAN</div>
+	</div>
+	<div class="w3-row " style="height:100px">
+		<div class="w3-third w3-text-white">blank</div>
+		<div class="w3-third w3-center w3-cell-middle">This is where I talk about Megan.
+				 She's the CEO of the family. She takes care of everyone and everything.
+	</div>
+	<div class="w3-third w3-text-white">blank</div>
+	</div>
+	
+<!-- Dave-->
+
+	<div class=" w3-cell-row" id="dave">
+		<div class="w3-cell w3-display-container " style="width:33.3%">
+			<img src="davebike.jpg " style="width: 100%">
+			<div class="superm w3-display-middle w3-xxlarge ">Dave</div>
+		</div>
+		<div class="w3-border w3-cell w3-cell-middle " style="width:33.3%" > 
+			<p> Dave is the Dad. He loves his girls, all 5 of them. </p>
+		</div>
+		<div class="w3-cell" style="width: 33.3%">
+			<div class=" w3-cell w3-half">
+				<img src="wrigley.jpg" style="width: 100%">
+				<p class="w3-center">*girls 4 & 5</p>
+			</div>
+			<div class=" w3-cell w3-half">
+				<h3 class="w3-center">The Pups</h3>
+				<img src="emery.jpg" style="width:100%">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
